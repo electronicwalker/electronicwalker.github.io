@@ -1548,7 +1548,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #094087;
+  background: #63cc45;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2428,14 +2428,16 @@ hr {
 .site-author-image {
   border-radius: 50px;
 }
-body {
-  font-size: 20px;
-  letter-spacing: 2px;
-}
-code {
-  font-size: 20px;
-  color: #fc6423;
-}
 a.fancybox img {
   box-shadow: rgba(0,0,0,0.247) 0px 12px 30px, #eee 0px 1px 0px, #eee -1px 0px 0px, #eee 1px 0px 0px, #f5f5f5 0px -1px 0px;
+}
+@media screen and (min-width: 1600px) {
+  body {
+    font-size: 20px;
+    letter-spacing: 2px;
+  }
+  code {
+    font-size: 20px;
+    color: #fc6423;
+  }
 }
